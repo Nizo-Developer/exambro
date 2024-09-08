@@ -10,10 +10,10 @@ document.addEventListener('DOMContentLoaded', () => {
     window.location.href = `https://docs.google.com/forms/d/e/${loc[1]}/viewform`;
   } else if (!window.location.search || loc[0] !== 'MSYD') {
 
-    x.innerHTML = 'Ups Bertemu Jurang\n URL-mu Tidak Valid';
+    x.innerHTML = 'URL-mu Tidak Valid';
 
   } else {
-    x.innerHTML = 'Silakan Akses Soal Melalui Exambro!';
+    x.innerHTML = 'Silakan akses soal melalui Exambro!';
   }
 
 })
