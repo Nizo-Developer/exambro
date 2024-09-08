@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     x.innerHTML = 'Selamat Mengerjakan';
 
-    window.location.href = `https://docs.google.com/forms/d/e/${loc[1]}/viewform?usp=sf_link`;
+    window.location.href = `https://docs.google.com/forms/d/e/${loc[1]}/viewform`;
   } else if (!window.location.search || loc[0] !== 'MSYD') {
 
     x.innerHTML = 'Ups Bertemu Jurang\n URL-mu Tidak Valid';
